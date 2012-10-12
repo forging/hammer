@@ -4,9 +4,9 @@ $services_json = json_decode($services,true);
 $mysql_config = $services_json["mysql-5.1"][0]["credentials"];
 
 // ** MySQL settings from resource descriptor ** //
-define('DB_NAME', $mysql_config["db_b2d26c76"]);
-define('DB_USER', $mysql_config["user_b2d26c76"]);
-define('DB_PASSWORD', $mysql_config["GtCOFVwR;)h18V"]);
+define('DB_NAME', $mysql_config["db_81f0380f"]);
+define('DB_USER', $mysql_config["user_81f0380f"]);
+define('DB_PASSWORD', $mysql_config["Q9FRha9g.^K$v9"]);
 define('DB_HOST', $mysql_config["a.db.shared.orchestra.io"]);
 define('DB_PORT', $mysql_config["port"]);
 
