@@ -7,8 +7,8 @@ $mysql_config = $services_json["mysql-5.1"][0]["credentials"];
 define('DB_NAME', $mysql_config["forging"]);
 define('DB_USER', $mysql_config["forging"]);
 define('DB_PASSWORD', $mysql_config["393015"]);
-define('DB_HOST', $mysql_config["instance28709.db.xeround.com"]);
-define('DB_PORT', $mysql_config["port"]);
+define('DB_HOST', $mysql_config["int.instance28709.db.xeround.com"]);
+define('DB_PORT', $mysql_config["18795"]);
 
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
