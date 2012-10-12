@@ -4,10 +4,10 @@ $services_json = json_decode($services,true);
 $mysql_config = $services_json["mysql-5.1"][0]["credentials"];
 
 // ** MySQL settings from resource descriptor ** //
-define('DB_NAME', $mysql_config["db_81f0380f"]);
-define('DB_USER', $mysql_config["user_81f0380f"]);
-define('DB_PASSWORD', $mysql_config["Q9FRha9g.^K$v9"]);
-define('DB_HOST', $mysql_config["a.db.shared.orchestra.io"]);
+define('DB_NAME', $mysql_config["forging"]);
+define('DB_USER', $mysql_config["forging"]);
+define('DB_PASSWORD', $mysql_config["393015"]);
+define('DB_HOST', $mysql_config["instance28709.db.xeround.com"]);
 define('DB_PORT', $mysql_config["port"]);
 
 define('DB_CHARSET', 'utf8');
